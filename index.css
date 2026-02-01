@@ -1,0 +1,86 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.header_section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header_section div h1{
+font-size: 20px;
+}
+.box_section{
+  text-align: center;
+  margin-bottom: 30px;
+
+  
+}
+.box_section input{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.box_section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box_section button:hover {
+    background-color: #0b78e3;
+}
+
+.body_section {
+    
+    max-width: 500px;
+    margin: 0 ;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.body_section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+   
+}
+
+.body_section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.body_section li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body_section li button {
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.body_section li span {
+    flex-grow: 1;
+}
+.body_section li input[type="checkbox"] {
+    margin-left: 5px;
+}
